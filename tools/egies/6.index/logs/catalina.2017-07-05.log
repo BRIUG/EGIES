@@ -1,0 +1,35 @@
+05-Jul-2017 18:35:17.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.13
+05-Jul-2017 18:35:17.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 27 2017 14:25:04 UTC
+05-Jul-2017 18:35:17.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.13.0
+05-Jul-2017 18:35:17.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8
+05-Jul-2017 18:35:17.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2
+05-Jul-2017 18:35:17.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jul-2017 18:35:17.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             O:\AppData\Program\JAVA\jdk_jre-7windows-x64\jdk1.7.0_17\jre
+05-Jul-2017 18:35:17.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_17-b02
+05-Jul-2017 18:35:17.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jul-2017 18:35:17.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         O:\WorkSpace\JAVA\EGIES\tools\egies\6.index
+05-Jul-2017 18:35:17.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         O:\WorkSpace\JAVA\EGIES\tools\egies\6.index
+05-Jul-2017 18:35:17.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=O:\WorkSpace\JAVA\EGIES\tools\egies\6.index\conf\logging.properties
+05-Jul-2017 18:35:17.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jul-2017 18:35:17.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jul-2017 18:35:17.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jul-2017 18:35:17.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=O:\WorkSpace\JAVA\EGIES\tools\egies\6.index
+05-Jul-2017 18:35:17.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=O:\WorkSpace\JAVA\EGIES\tools\egies\6.index
+05-Jul-2017 18:35:17.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=O:\WorkSpace\JAVA\EGIES\tools\egies\6.index\temp
+05-Jul-2017 18:35:17.335 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+05-Jul-2017 18:35:17.338 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+05-Jul-2017 18:35:17.340 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+05-Jul-2017 18:35:18.378 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+05-Jul-2017 18:35:18.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8085"]
+05-Jul-2017 18:35:18.587 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jul-2017 18:35:18.590 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8019"]
+05-Jul-2017 18:35:18.597 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Jul-2017 18:35:18.598 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2069 ms
+05-Jul-2017 18:35:18.670 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Jul-2017 18:35:18.670 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.13
+05-Jul-2017 18:35:18.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory O:\WorkSpace\JAVA\EGIES\tools\egies\6.index\webapps\index
+05-Jul-2017 18:35:24.757 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jul-2017 18:35:27.912 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory O:\WorkSpace\JAVA\EGIES\tools\egies\6.index\webapps\index has finished in 9,232 ms
+05-Jul-2017 18:35:27.918 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8085"]
+05-Jul-2017 18:35:27.939 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8019"]
+05-Jul-2017 18:35:27.949 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 9350 ms

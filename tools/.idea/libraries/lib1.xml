@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/catalina-ha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-i18n-ja.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/catalina-tribes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/slf4j-log4j12-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/jul-to-slf4j-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-jni.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-util-scan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/catalina-storeconfig.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-i18n-fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/websocket-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/catalina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-i18n-es.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/catalina-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/ecj-4.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/tomcat-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/jcl-over-slf4j-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/slf4j-api-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/annotations-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/egies/4.extractor/lib/jaspic-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

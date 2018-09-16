@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="Space-Ground Map"/>
+<title>Space-Ground Map - Map API - Example - Local Search by Keyword</title>
+<style type="text/css">
+.search{font-size:13px; border:1px solid #999999;}
+.ls{line-height:27px; padding-left:7px;}
+.prompt{display: none; font-size:13px; border:1px solid #999999;}
+.statistics{display: none; font-size:13px; border:1px solid #999999; overflow-y: scroll; height:150px;}
+.suggests{display: none; font-size:13px; border:1px solid #999999;};
+.lineData{display: none; font-size:13px; border:1px solid #999999;}
+.result{display:none; font-size:12px; border:1px solid #999999; line-height:27px; padding-left:7px;}
+</style>
+<script type="text/javascript" src="http://api.tianditu.com/js/maps.js"></script>
+<script type="text/javascript" src="http://api.tianditu.com/js/service.js"></script>
+<script>
+    var map;
+    var zoom = 12;
+    var localsearch;
+    function onLoad()
+    {
+        //Initialize the map object
+        map=new TMap("mapDiv");
+        //Set the center point and level of the display map
+        map.centerAndZoom(new TLngLat(116.40969,39.89945),zoom);
+        //Allow mouse wheel to zoom the map
+        map.enableHandleMouseScroll();
+        //Allow double click on the map to enlarge
+        map.enableDoubleClickZoom();
+          
+        var config = {
+            pageCapacity:10,    //Number displayed per page
+            onSearchComplete:localSearchResult  //Callback function for receiving data
+        };
+        //Create a search object
+        localsearch = new TLocalSearch(map,config);
+    }
+      
+    function localSearchResult(result)
+    {
+        //Clear maps and search lists
+        clearAll();
+          
+        //Add a prompt
+        prompt(result);
+          
+        //Parse search results based on return type
+        switch(parseInt(result.getResultType()))
+        {
+            case 1:
+                //Parsing point data results
+                pois(result.getPois());
+                break;
+            case 2:
+                //Analyze the recommended city
+                statistics(result.getStatistics());
+                break;
+            case 3:
+                //Analysis of administrative division boundaries
+                area(result.getArea());
+                break;
+            case 4:
+                //Analyze suggested word information
+                suggests(result.getSuggests());
+                break;
+            case 5:
+                //Analyze bus information
+                lineData(result.getLineData());
+                break;
+        }
+    }
+      
+    //Parsing prompt words
+    function prompt(obj)
+    {
+        var prompts = obj.getPrompt();
+        if(prompts)
+        {
+            var promptHtml = "";
+            for(var i=0;i<prompts.length;i++)
+            {
+                var prompt = prompts[i];
+                var promptType = prompt.type;
+                var promptAdmins = prompt.admins;
+                var meanprompt = prompt.DidYouMean;
+                if(promptType == 1)
+                {
+                    promptHtml += "<p>Do you want to be at"+promptAdmins[0].name+"</strong>search for more included<strong>"+obj.getKeyword()+"</strong>related content?<p>";
+                }
+                else if(promptType == 2)
+                {
+                    promptHtml += "<p>at<strong>"+promptAdmins[0].name+"</strong>Not searched with<strong>"+obj.getKeyword()+"</strong>related results.<p>";
+                    if(meanprompt)
+                    {
+                        promptHtml += "<p>Are you looking for:<font weight='bold' color='#035fbe'><strong>"+meanprompt+"</strong></font><p>";
+                    }
+                }
+                else if(promptType == 3)
+                {
+                    promptHtml += "<p style='margin-bottom:3px;'>Have the following related results, are you looking for:</p>"
+                    for(i=0;i<promptAdmins.length;i++)
+                    {
+                        promptHtml += "<p>"+promptAdmins[i].name+"</p>";
+                    }
+                }
+            }
+            if(promptHtml != "")
+            {
+                document.getElementById("promptDiv").style.display = "block";
+                document.getElementById("promptDiv").innerHTML = promptHtml;
+            }
+        }
+    }
+      
+    //Parsing point data results
+    function pois(obj)
+    {
+        if(obj)
+        {
+            //Show search list
+            var divMarker = document.createElement("div");
+            //Coordinate array, will be used when setting the optimal scale.
+            var zoomArr = [];
+            for(var i=0;i<obj.length;i++)
+            {
+                //Closure
+                (function(i){
+                    //name
+                    var name = obj[i].name;
+                    //address
+                    var address = obj[i].address;
+                    //coordinate
+                    var lnglatArr = obj[i].lonlat.split(" ");
+                    var lnglat = new TLngLat(lnglatArr[0],lnglatArr[1]);
+                      
+                    var winHtml = "address:"+address;
+                      
+                    //Create an annotation object
+                    var marker = new TMarker(lnglat);
+                    //Add label points to the map
+                    map.addOverLay(marker);
+                    //Register click events for tag points
+                    TEvent.bind(marker,"click",marker,function(){
+                        var info = this.openInfoWinHtml(winHtml);
+                        info.setTitle(name);
+                    });
+                    zoomArr.push(lnglat);
+                      
+                    //Display a list of searches on the page
+                    var a = document.createElement("a");
+                    a.href = "javascript://";
+                    a.innerHTML = name;
+                    a.onclick = function(){
+                        showPosition(marker,name,winHtml);
+                    }
+                    divMarker.appendChild(document.createTextNode((i+1)+"."));
+                    divMarker.appendChild(a);
+                    divMarker.appendChild(document.createElement("br"));
+                })(i);
+            }
+            //Show the best level of the map
+            map.setViewport(zoomArr);
+            //Show search results
+            divMarker.appendChild(document.createTextNode('Total'+localsearch.getCountNumber()+'records，part'+localsearch.getCountPage()+'pages, current number'+localsearch.getPageIndex()+'page.'));
+            document.getElementById("searchDiv").appendChild(divMarker);
+            document.getElementById("resultDiv").style.display = "block";
+        }
+    }
+      
+    //Display message box
+    function showPosition(marker,name,winHtml)
+    {
+        var info = marker.openInfoWinHtml(winHtml);
+        info.setTitle(name);
+    }
+      
+    //Analyze the recommended city
+    function statistics(obj)
+    {
+        if(obj)
+        {
+            //Coordinate array, will be used when setting the optimal scale
+            var pointsArr = [];
+            var priorityCitysHtml = "";
+            var allAdminsHtml = "";
+            var priorityCitys = obj.priorityCitys;
+            if(priorityCitys)
+            {
+                //Recommended city display
+                priorityCitysHtml += "There are results in the following cities in China<ul>";
+                for(var i=0;i<priorityCitys.length;i++)
+                {
+                    priorityCitysHtml += "<li>" + priorityCitys[i].name + "("+priorityCitys[i].count+")</li>";
+                }
+                priorityCitysHtml += "</ul>";
+            }
+              
+            var allAdmins = obj.allAdmins;
+            if(allAdmins)
+            {
+                allAdminsHtml += "More cities<ul>";
+                for(var i=0;i<allAdmins.length;i++)
+                {
+                    allAdminsHtml += "<li>" + allAdmins[i].name + "("+allAdmins[i].count+")";
+                    var childAdmins = allAdmins[i].childAdmins;
+                    if(childAdmins)
+                    {
+                        for(var m=0;m<childAdmins.length;m++)
+                        {
+                            allAdminsHtml += "<blockquote>" + childAdmins[m].name + "("+childAdmins[m].count+")</blockquote>";
+                        }
+                    }
+                    allAdminsHtml += "</li>"
+                }
+                allAdminsHtml += "</ul>";
+            }
+            document.getElementById("statisticsDiv").style.display = "block";
+            document.getElementById("statisticsDiv").innerHTML = priorityCitysHtml + allAdminsHtml;
+        }
+    }
+      
+    //Analysis of administrative division boundaries
+    function area(obj)
+    {
+        if(obj)
+        {
+            //Coordinate array, will be used when setting the optimal scale
+            var pointsArr = [];
+            var points = obj.points;
+            for(var i=0;i<points.length;i++)
+            {
+                var regionLngLats = [];
+                var regionArr = points[i].region.split(",");
+                for(var m=0;m<regionArr.length;m++)
+                {
+                    var lnglatArr = regionArr[m].split(" ");
+                    var lnglat = new TLngLat(lnglatArr[0],lnglatArr[1]);
+                    regionLngLats.push(lnglat);
+                    pointsArr.push(lnglat);
+                }
+                //Create a line object
+                var line = new TPolyline(regionLngLats,{strokeColor:"blue", strokeWeight:3, strokeOpacity:1, strokeStyle:"dashed"});
+                //Add a line to the map
+                map.addOverLay(line);
+            }
+            //Show the best scale
+            map.setViewport(pointsArr);
+        }
+    }
+  
+  
+      
+    //Analyze suggested word information
+    function suggests(obj)
+    {
+        if(obj)
+        {
+            //Suggested words suggest that if the search type is a bus planning suggestion or a bus stop search, the returned result is a suggested word for the bus information.
+            var suggestsHtml = "Suggestion word prompt<ul>";
+            for(var i=0;i<obj.length;i++)
+            {
+                suggestsHtml += "<li>" + obj[i].name + "&nbsp;&nbsp;<font style='color:#666666'>"+obj[i].address+"</font></li>";
+            }
+            suggestsHtml += "</ul>";
+            document.getElementById("suggestsDiv").style.display = "block";
+            document.getElementById("suggestsDiv").innerHTML = suggestsHtml;
+        }
+    }
+      
+    //Analyze bus information
+    function lineData(obj)
+    {
+        if(obj)
+        {
+            //Bus reminder
+            var lineDataHtml = "Bus reminder<ul>";
+            for(var i=0;i<obj.length;i++)
+            {
+                lineDataHtml += "<li>" + obj[i].name + "&nbsp;&nbsp;<font style='color:#666666'>count"+obj[i].stationNum+"stations</font></li>";
+            }
+            lineDataHtml += "</ul>";
+            document.getElementById("lineDataDiv").style.display = "block";
+            document.getElementById("lineDataDiv").innerHTML = lineDataHtml;
+        }
+    }
+      
+    //Clear maps and search lists
+    function clearAll()
+    {
+        map.clearOverLays();
+        document.getElementById("searchDiv").innerHTML = "";
+        document.getElementById("resultDiv").style.display = "none";
+        document.getElementById("statisticsDiv").innerHTML = "";
+        document.getElementById("statisticsDiv").style.display = "none";
+        document.getElementById("promptDiv").innerHTML = "";
+        document.getElementById("promptDiv").style.display = "none";
+        document.getElementById("suggestsDiv").innerHTML = "";
+        document.getElementById("suggestsDiv").style.display = "none";
+        document.getElementById("lineDataDiv").innerHTML = "";
+        document.getElementById("lineDataDiv").style.display = "none";
+    }
+</script>
+</head>
+<body onLoad="onLoad()">
+    <div id="mapDiv" style="position:absolute;width:800px; height:500px;"></div>
+    <div style="position:absolute;left:820px;">
+        <!-- Search panel -->
+        <div class="search">
+            Search content:<input type="text" id="keyWord" value="Tiananmen"/>
+            <input type="button" onClick="localsearch.search(document.getElementById('keyWord').value)" value="Search"/>
+        </div>
+        <br/>
+        <!-- Prompt word panel -->
+        <div id="promptDiv" class="prompt"></div>
+        <!-- Statistics panel -->
+        <div id="statisticsDiv" class="statistics"></div>
+        <!-- Suggestion panel -->
+        <div id="suggestsDiv" class="suggests"></div>
+        <!-- Bus reminder panel -->
+        <div id="lineDataDiv" class="lineData"></div>
+        <!-- Search results panel -->
+        <div id="resultDiv" class="result">
+            <div id="searchDiv"></div>
+            <div id="pageDiv">
+                <input type="button" value="First page" onClick="localsearch.firstPage()"/>
+                <input type="button" value="Previous page" onClick="localsearch.previousPage()"/>
+                <input type="button" value="Next page" onClick="localsearch.nextPage()"/>
+                <input type="button" value="the last page" onClick="localsearch.lastPage()"/>
+                <br/>
+                turn to number<input type="text" value="1" id="pageId" size="3"/>page
+                <input type="button" onClick="localsearch.gotoPage(parseInt(document.getElementById('pageId').value));" value="turn to"/>
+            </div>
+        </div>
+                <ul>
+            <li>This example demonstrates how to search locally based on keywords.</li>
+            <p><a href="http://lbs.tianditu.com/api-new/examples.html">Return to all sample lists</a></p>
+        </ul>
+    </div>
+</body>
+</html>

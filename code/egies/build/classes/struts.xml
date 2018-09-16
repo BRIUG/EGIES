@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <package name="struts2" extends="struts-default">
+
+		<action name="UserAction_*" method="{1}" class="userAction">
+            <result name="success">/egies/jsp/front/ok.jsp</result>
+            <result name="input">/egies/jsp/front/error.jsp</result>
+        </action>
+        
+        <action name="IndexAction_*" method="{1}" class="indexAction">
+            <result name="addIndex">/egies/jsp/back/main.jsp?type=addIndex</result>
+            <result name="viewIndex">/egies/jsp/back/viewIndex.jsp</result>
+            <result name="createIndex" type="redirect">/IndexAction_viewIndex.action</result>
+            <result name="doQuery">/egies/jsp/front/index.jsp</result>
+        </action>
+        
+        <action name="ColumnAction_*" method="{1}" class="columnAction">
+            <result name="getAllColumn">/egies/jsp/back/addColumn.jsp</result>
+            <result name="addColumn">/egies/jsp/back/main.jsp?type=addColumn</result>
+            <result name="searchAllColumnPa">/egies/jsp/back/viewColumn.jsp</result>
+        </action>
+        
+        <action name="NewsAction_*" method="{1}" class="newsAction">
+            <result name="getAllColumn">/egies/jsp/back/addNews.jsp</result>
+            <result name="addNews">/egies/jsp/back/main.jsp?type=addNews</result>
+            <result name="searchAllNewsPa">/egies/jsp/back/viewNews.jsp</result>
+            <result name="delNews">/egies/jsp/back/main.jsp?type=delNews</result>
+        </action>
+                
+        <action name="FileDocumentAction_*" method="{1}" class="fileDocumentAction">
+            <result name="upload">/egies/jsp/back/main.jsp?type=addLocal</result>
+            <result name="searchAllFileDocumentPa">/egies/jsp/back/addLocal.jsp</result>
+            <result name="delFileDocument">/egies/jsp/back/main.jsp?type=delFileDocument</result>
+            <result name="doQuery">/egies/jsp/front/searchFile.jsp</result>
+            <result name="viewSwf">/egies/jsp/front/documentView.jsp</result>
+        </action>
+    </package>
+
+</struts>

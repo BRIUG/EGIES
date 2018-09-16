@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="bin2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tools/egies/4.extractor/bin/commons-daemon.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tools/egies/4.extractor/bin/tomcat-juli.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tools/egies/4.extractor/bin/bootstrap.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

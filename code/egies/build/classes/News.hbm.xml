@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="casm.gis.domain">
+	<class name="News" table="t_news">
+		<id name="newsId" type="java.lang.Integer">
+			<generator class="native" />
+		</id>
+		<property name="newsTitle" />
+		<property name="type" />
+		<property name="level" />
+		<property name="location" />
+		<property name="longitude" />
+		<property name="latitude" />
+		<property name="newsTime" />
+		<property name="sourceNet" />
+		<property name="detail" />
+		<property name="sourceUrl" />
+		<property name="filePath" />
+		<property name="createTime" />
+		<property name="mark" />
+
+		<many-to-one name="createBy" column="userId" lazy="false"/>
+		
+		<many-to-one name="column" column="columnId" lazy="false"/>
+		
+	</class>
+
+</hibernate-mapping>

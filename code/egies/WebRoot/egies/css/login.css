@@ -1,0 +1,17 @@
+.stage {
+  text-align: left;
+}
+[class*='icono'] {
+  color: #eee;
+  opacity: 0.6;
+}
+span {
+  padding: 4px 3px 0px 0px;
+  display: inline-block;
+}
+span:hover {
+  transform: scale(1.3);
+}
+span:hover i {
+  opacity: 0.8;
+}

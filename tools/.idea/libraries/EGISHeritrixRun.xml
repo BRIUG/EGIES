@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EGISHeritrixRun">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/egies/1.sourcepath/heritrixtool/EGISHeritrixRun.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

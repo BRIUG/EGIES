@@ -1,0 +1,868 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<META name="filetype" content="1">
+<META name="publishedtype" content="1">
+<META name="pagetype" content="1">
+
+<META name="catalogs" content="PAGE1430101144424644">
+<META name="contentid" content="ARTI1438809484523525">
+<META name="publishdate" content="2015-08-06">
+<META name="author" content="应急网编辑">
+<META name="source" content="中国地震台网中心">
+<title>新疆和田地区于田县发生4.4级地震_国家应急广播网</title>
+<meta name=keywords content="新疆维吾尔自治区 和田地区 于田县 发生 4.4 4 . 4 级 地震">
+<meta name=description content="08月06日05时04分在新疆维吾尔自治区和田地区于田县（北纬36.0度，东经81.6度）发生4.4级地震，震源深度10千米。">
+<script type="text/javascript">
+var t_cntent_id = 'ARTI1438809484523525';
+var t_page_url ='http://www.cneb.gov.cn/2015/08/06/ARTI1438809484523525.shtml';
+var t_img_url ='';
+</script>
+
+<link href="http://www.cneb.gov.cn/contentpage2013/arti_css/style.css?123" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.cneb.gov.cn/contentpage2013/js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<link type="text/css" rel="stylesheet" href="http://www.cneb.gov.cn/cneb/include_all_2014/topbar/style/style.css?a973a674ceb4085d86d531ea13f4fc1f"/>
+<div class="topbar_2015">
+	<div class="top_w1000 clearfix">
+    	<div class="fl_box"><a href="http://cneb.gov.cn/" class="logo_barlink">国家应急广播</a> | <span class="link01" onclick="SetHome(this,window.location)">设为首页</span></div>
+        <ul class="fr_box" id="topbar_loginbox">
+        	<li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+function SetHome(obj,vrl){
+try{
+obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+}
+catch(e){
+if(window.netscape) {
+try {
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+}
+catch (e) {
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+}
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+prefs.setCharPref('browser.startup.homepage',vrl);
+}
+}
+}
+</script>
+<link type="text/css" rel="stylesheet" href="http://www.cneb.gov.cn/cneb/include_all_2014/bannerpage/style/style.css?f13ea0a047ba01980f1008671aa15f1d"/>
+<div class="banner_box_2015">
+	<div class="banner_cbox"></div>
+</div><div class="page_nav_box">
+	<div class="page_nav_cbox">
+    	<div class="erweima_box">
+        	<div class="lable_b" id="erweima_box_btn">二维码</div>
+            <ul class="win_b" id="erweima_box_cont">
+            	<li><img src="http://img.cneb.gov.cn/photoAlbum/templet/common/DEPA1409134170635612/img_2015102703.jpg" height="90" width="90"/><p>国家应急广播客户端</p></li>
+                <li><img src="http://img.cneb.gov.cn/photoAlbum/templet/common/DEPA1409134170635612/img_2015102704.jpg" height="90" width="90"/><p>微信公众平台</p></li>
+            </ul>
+        </div>
+        <div class="nav_box_2015">
+        	<ul class="nav_ul" id="nav_box_2015_1030">
+
+				<li class="index01"><a href="http://cneb.gov.cn/">首页</a></li>
+
+				<li class="gn01"><a href="http://www.cneb.gov.cn/tfsj/gn/">国内</a></li>
+
+				<li class="gj01"><a href="http://www.cneb.gov.cn/tfsj/gj/">国际</a></li>
+
+				<li class="sp01"><a href="http://www.cneb.gov.cn/yjsp/">视频</a></li>
+
+				<li class="yp01"><a href="http://www.cneb.gov.cn/audio/">音频</a></li>
+
+				<li class="zt01"><a href="http://www.cneb.gov.cn/ztlb/">专题</a></li>
+
+				<li class="kp01"><a href="http://www.cneb.gov.cn/yjkepu/">科普</a></li>
+
+            </ul>
+        </div>
+        <div class="searche_box2015 clearfix">
+        	<div class="sinput_box"><input type="text" value="输入关键词" default="输入关键词" onfocus="($(this).val() == $(this).attr('default'))&&($(this).val(''))" onblur="(!$.trim($(this).val()))&&($(this).val($(this).attr('default')))"  id="TOPBAR_search_01"/></div>
+            <div class="sbtn" onclick="window.open('http://www.cneb.gov.cn/search/?keyword='+encodeURI(($('#TOPBAR_search_01').val()==$('#TOPBAR_search_01').attr('default'))?'':$('#TOPBAR_search_01').val()));" >搜索</div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+	$('#erweima_box_btn').click(function(){
+		$('#erweima_box_cont').toggle();
+	});
+});
+</script>
+<link type="text/css" rel="stylesheet" href="http://www.cneb.gov.cn/cneb/include_all_2014/scrol_bd2015/style/style.css?028e8b71b53d85db193c4231cecdf807"/><script language="javascript" src="http://www.cneb.gov.cn/cneb/include_all_2014/scrol_bd2015/style/main.js?5d1e96b44485d7be9894acfe8cee2848"></script>
+<div class="scroll_newsbox">
+	<div class="scroll_cnewsbox">
+    	<div class="lab_b">滚动播报</div>
+        <div class="cont_b">
+        	<div id="leftMarquee" class="leftLoop">
+                <div class="cont_cb clearfix">
+                    <ul>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500020271127654.shtml" target="_blank">甘肃省平凉市发布雷电黄色预警</a>  <span>16:17</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019652838473.shtml" target="_blank">雷电冰雹夜袭首都机场 今日仍将有短时雷雨</a>  <span>16:15</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500020039902622.shtml" target="_blank">江西省赣州市发布高温黄色预警</a>  <span>16:14</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500020021699613.shtml" target="_blank">河北省承德市发布冰雹橙色预警</a>  <span>16:13</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019788464586.shtml" target="_blank">甘肃省平凉市发布高温橙色预警</a>  <span>16:09</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019772207573.shtml" target="_blank">湖北省黄冈市发布大风黄色预警</a>  <span>16:09</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019752975556.shtml" target="_blank">辽宁省发布暴雨橙色预警</a>  <span>16:09</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019736750542.shtml" target="_blank">河北省沧州市发布雷电黄色预警</a>  <span>16:09</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019720525526.shtml" target="_blank">湖北省十堰市发布大风黄色预警</a>  <span>16:08</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019704303512.shtml" target="_blank">陕西省发布雷电黄色预警</a>  <span>16:08</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019689099496.shtml" target="_blank">内蒙古发布雷电黄色预警</a>  <span>16:08</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019673887483.shtml" target="_blank">山东省泰安市发布雷电黄色预警</a>  <span>16:07</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019439656408.shtml" target="_blank">山西省临汾市发布高温黄色预警</a>  <span>16:04</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019423430399.shtml" target="_blank">内蒙古锡林郭勒盟发布高温黄色预警</a>  <span>16:03</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019408229390.shtml" target="_blank">湖北省发布大风黄色预警</a>  <span>16:03</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019392995381.shtml" target="_blank">内蒙古乌海市发布高温黄色预警</a>  <span>16:03</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019377796372.shtml" target="_blank">甘肃省嘉峪关市发布高温橙色预警</a>  <span>16:03</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019362586363.shtml" target="_blank">贵州省遵义市发布雷电黄色预警</a>  <span>16:02</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500019347377354.shtml" target="_blank">青海省海南州发布雷电黄色预警</a>  <span>16:02</span></li>
+
+<li><a href="http://www.cneb.gov.cn/2017/07/14/ARTI1500018684228341.shtml" target="_blank">湖南省益阳市发布雷电黄色预警</a>  <span>15:51</span></li>
+
+                    </ul>
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+	wf_scroll_fun('leftMarquee',35);
+});
+</script>
+
+<div class="page_body">
+
+<!-- <div class="vspace" style="height:25px;"></div> -->
+
+<div class="clear"></div>
+<div class="links_boxs20141017">
+<div class="link_b">
+<a target="_blank" href="http://www.cneb.gov.cn/">国家应急广播</a> > 
+
+
+
+
+<a href="http://www.cneb.gov.cn/dzsb/" target="_blank">
+地震速报</a>
+
+
+
+
+</div>
+</div>
+<div class="clear"></div>
+
+<div class="column_wrapper w_690_260">
+	<div class="w_690">
+    	<div class="LL_2014082501">
+        	<div class="LL_2014082502">
+
+            	<div class="con_title">
+                	<h3 id="t_title_201309">新疆和田地区于田县发生4.4级地震</h3>
+                    <p class="info">2015-08-06 05:18 来源：中国地震台网中心</p>
+                </div>
+                <div class="con_cont">
+                	<p style="text-indent:2em;">8月6日5时4分在新疆维吾尔自治区和田地区于田县（北纬36.0度，东经81.6度）发生4.4级地震，震源深度10千米。</p>
+
+                    <div class="bianji">责编：应急网编辑</div>
+                    <div class="fenxiang_box">
+                        
+						<dl>
+							<dd><a href="javascript:void(0);" title="转发到腾讯空间" onclick="addToQQ(t_page_url)"><img src="http://www.cneb.gov.cn/contentpage2013/arti_css/icons/qqzone.jpg" width="32" height="32" /></a></dd>
+							<dd><a href="javascript:void(0);" title="转发到新浪微博" onclick="addToSina(t_page_url,$('#t_title_201309').text(),t_img_url)"><img src="http://www.cneb.gov.cn/contentpage2013/arti_css/icons/weibo.jpg" width="32" height="32"  /></a></dd>
+							<dd><a href="javascript:void(0);" title="转发到腾讯微博" onclick="addToQQweibo(t_page_url,$('#t_title_201309').text(),t_img_url)"><img src="http://www.cneb.gov.cn/contentpage2013/arti_css/icons/qqweibo.jpg" width="32" height="32" /></a></dd>
+							<dd><a href="javascript:void(0);" title="转发到人人" onclick="addToRenRen(t_page_url,$('#t_title_201309').text())"><img src="http://www.cneb.gov.cn/contentpage2013/arti_css/icons/renren.jpg" width="32" height="32" /></a></dd>
+						</dl>
+						<span class="zf">转发</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="LL_2014082601">
+
+                	<div class="LL_2014082602">
+                    	<div class="cond_hd">
+                        	<span class="tit">相关链接</span>
+                        </div>
+                        <div class="cond_bd">
+                        	<ul>
+		
+                            	<li>• <a href="http://www.cneb.gov.cn/2015/08/06/ARTI1438808944634517.shtml">新疆和田地区于田县附近发生4.8级左右地震</a></li>
+		
+                            	<li>• <a href="http://www.cneb.gov.cn/2015/08/02/ARTI1438454193285101.shtml">新疆和田地区皮山县发生3.0级地震</a></li>
+		
+                            	<li>• <a href="http://www.cneb.gov.cn/2015/07/28/ARTI1438035691271718.shtml">新疆和田地区策勒县发生4.0级地震</a></li>
+		
+                            	<li>• <a href="http://www.cneb.gov.cn/2015/07/31/ARTI1438336151088301.shtml">新疆和田地区发布高温黄色预警</a></li>
+		
+                            	<li>• <a href="http://www.cneb.gov.cn/2015/07/31/ARTI1438338632994676.shtml">新疆和田地区皮山县发生3.0级地震</a></li>
+		
+                            </ul>
+                        </div>
+                    </div>
+<div class="vspace"></div>
+
+					
+
+
+                <div class="clear"></div>
+            </div>
+<link type="text/css" rel="stylesheet" href="http://www.cneb.gov.cn/cneb/include_all_2014/arti_liuyan_page/style/style.css?e36f8c4be525343a95442ac0a145f05c"/>
+
+<div style="border-top:1px solid #cfcfcf; " class="clear"></div>
+<div class="clear" style="height:10px;"></div>
+<div class="md_liuyan2014090201">
+	<div class="md_hd"><span class="md_title">留言评论</span></div>
+	<div class="md_bd">
+		<div id="liuyan_box"></div>
+		<div class="clear"></div>
+		<div id="page_box_liuyan" class="pagebox"></div>
+		<div class="clear"></div>
+		<div class="formbox">
+			<div class="userinfoboxs">
+				<div class="userinfobox" id="userinfobox"><a href="javascript:login_();">登录</a> | <a href="http://uc.cneb.gov.cn:8080/regist/registnew.jsp" target="_blank">注册</a></div>
+				<div class="chatnum_box" >您还可以输入：<span id="chatnum_box">200</span>字</div>
+				<div class="clear"></div>
+			</div>
+			<form method="post" id="t_form_liuyan" action="http://uc.cneb.gov.cn:8080/LiuYanServlet" target="hidden_liuyan_iframe">
+        	<div class="input_box">
+				<textarea id="input_liuyan" class="input_liuyan" name="content"></textarea>
+            </div>
+            <div class="jacc_box">
+            	<input type="text" id="input_jacc" name="jacc" size="4" maxlength="4" /> <img data="http://uc.cneb.gov.cn:8080/loginCode" src="http://uc.cneb.gov.cn:8080/loginCode" id="jacc_img" width="52" height="24" /> <a href="javascript:void(0);" id="jacc_btn">看不清刷新</a>
+                <div class="liuyan_submit_btn" id="liuyan_submit_btn">提交</div>
+                <div class="clear"></div>
+            </div>
+			<input type="hidden" id="pageid_liuyan" name="pageid" value=""/>
+			<input type="hidden" name="pagetype" value="1"/>
+			</form>
+		</div>
+	</div>
+</div>
+<iframe width="1" height="1" style="display:none" id="hidden_liuyan_iframe" name="hidden_liuyan_iframe"></iframe>
+
+
+<script type="text/javascript">
+var liuyan_is_submiting = false;
+
+function liuyan_page(curpage){
+	var pagesize = 5;//每页展示条数
+	if(curpage<1){curpage = 1;}
+	$.getJSON('http://uc.cneb.gov.cn:8080/GetLiuYansServlet?callback=?',{'pageid':t_cntent_id,'start':((curpage-1)*pagesize),'rows':pagesize},function(data){	
+		if(!data){return;}
+		var lis=data.docs;	
+		//总条数
+		var itemsum=data.numFound;
+		if(itemsum<=0){return;}
+		//总页数
+		var pagesum=Math.ceil(itemsum/pagesize);
+		//展示：当前页内容
+		var html_arr = [];
+		for(var i = 0, len = lis.length; i<len; i++){
+			html_arr.push('<div class="liuyanlist">');
+			html_arr.push('<div class="photobpx"><img src="'+(lis[i].photo?lis[i].photo:"http://img.cneb.gov.cn/photoAlbum/templet/common/DEPA1378373547816120/huiyuanimg20130923.jpg")+'" width="50" height="50" /></div>');
+			html_arr.push('<div class="infobox">');
+			html_arr.push('<div class="info">',lis[i].creator,' <span class="time">',lis[i].creatime,'</span></div>');
+			html_arr.push('<p>',lis[i].content,'</p>');
+			html_arr.push('</div>');
+			html_arr.push('<div class="clear"></div>');
+			html_arr.push('</div>');
+		}
+
+	//2、展示：分页控制
+		var textArr = new Array();
+		textArr.push('<div class="clear" style="height:15px;"></div>');
+		//2.2 看看是否展示 上一页 链接
+		if(curpage>1){
+			textArr.push('<a href="javascript:liuyan_page(',curpage-1,');" class="pageup">上一页</a>');
+		}
+		//2.3 展示5个页面号
+		var beginpage = Math.floor((curpage-1)/5)*5+1;
+		if(beginpage>1){textArr.push('<a href="javascript:liuyan_page(',1,');">1</a>...');}
+		var endpage = beginpage+4;
+		if(endpage>pagesum)
+			endpage=pagesum;
+		for(var i=beginpage;i<=endpage;i++){
+			if(i==curpage){
+					textArr.push('<a class="sel">',i,'</a>');
+			}else{
+					textArr.push('<a href="javascript:liuyan_page(',i,');">',i,'</a>');
+			}
+		}
+		//2.4 看看是否展示 下一页 链接
+		if(curpage<pagesum){
+			if(endpage<pagesum){
+				if(endpage<pagesum-1){textArr.push('...');}
+				textArr.push('<a href="javascript:liuyan_page(',pagesum,')">',pagesum,'</a>');
+			}
+			textArr.push('<a href="javascript:liuyan_page(',curpage+1,')" class="pagedown">下一页</a>');
+		}
+		textArr.push('<div class="clear" style="height:15px;"></div>');
+		// 将展示内容，放到对应位置
+		$("#liuyan_box").html(html_arr.join(""));
+		$("#page_box_liuyan").html(textArr.join(""));
+	});
+}
+
+function check_str_num(o){
+	var s = o.val();
+	var len = s.length;
+	var t_len = 0;
+	for(var i =0; i<len;i++){
+		var s_ = s.charCodeAt(i);
+		if(s_>0 && s_ < 128){
+			t_len=0.5+t_len;
+		}else{
+			t_len++;
+		}
+	}
+	return t_len;
+}
+
+function form_callback_liuyan(d){
+	if(d.result==0){
+		alert('提交成功！');
+		$('#input_liuyan').val('');
+		$('#jacc_img').attr('src',$('#jacc_img').attr('data')+'?'+Math.random());
+	}else if(d.result=='-1'||d.result=='-2'){
+		alert('验证码错误');
+	}else{
+		alert('失败，请重试');
+	}
+	liuyan_is_submiting = false;
+}
+function topbar_logout_LD(){
+	show_loginbox_liuyan();
+}
+function topbar_login_LD(){
+	show_logoutbox_liuyan();
+}
+function show_logoutbox_liuyan(){
+	$('#userinfobox').html('用户名：<a href="http://uc.cneb.gov.cn:8080/pass/myperson.jsp" target="_blank">'+readCookie('sys_cookie')+'</a> | <span class="logout_btn" onclick="logout_f();">退出</span>');
+}
+function show_loginbox_liuyan(){
+	$('#userinfobox').html('<a href="javascript:login_();">登录</a> | <a href="http://uc.cneb.gov.cn:8080/regist/registnew.jsp" target="_blank">注册</a>');
+}
+
+$(function(){
+	liuyan_page(1);
+	$('#jacc_btn').click(function(){
+		$('#jacc_img').attr('src',$('#jacc_img').attr('data')+'?'+Math.random());
+	});
+	$('#input_liuyan').keyup(function(){
+		var t_len = check_str_num($(this));
+		var max_len = 200;
+		if(max_len-t_len<0){alert('输入字数过长，超过'+max_len+'字');}
+		$('#chatnum_box').text(Math.floor(max_len-t_len));
+	});
+	$('#liuyan_submit_btn').click(function(){
+		if(liuyan_is_submiting){return false;}
+		if($.trim($('#input_jacc').val()).length=='0'){alert('验证码不能为空'); return false;}
+		if($.trim($('#input_liuyan').val()).length=='0'){alert('留言内容不能为空'); return false;}
+		if(check_str_num($('#input_liuyan'))-200>0){alert('输入字数过长，超过200字'); return false;}
+		$('#pageid_liuyan').val(t_cntent_id);	
+		document.domain='cneb.gov.cn';
+		$('#t_form_liuyan').submit();
+		liuyan_is_submiting = true;
+	});
+
+	if(readCookie('sys_cookie')!=''){
+		show_logoutbox_liuyan();
+	}else{
+		show_loginbox_liuyan();
+	}
+});
+</script>
+        </div>
+    </div>
+    <div class="w_260">
+<link type="text/css" rel="stylesheet" href="http://www.cneb.gov.cn/cneb/include_all_2014/2015wygz_ind/style/style.css?6758a77070f955b350684601a2d56861"/><script language="javascript" src="http://www.cneb.gov.cn/cneb/include_all_2014/2015wygz_ind/style/main.js?34f1239a6058e8959ceae92c4fb4240a"></script>
+<div class="ELMT1446184332861884">
+<div class="md2015102702"  id="">
+	
+	<div class="md_hd">
+		<span class="md_htd">网友关注</span>                
+		
+		
+	</div>
+
+	<div class="md_bd">
+	
+		<div id="SUBD1446184332863886">
+			<div class="ELMT1446184385318888">
+<div class="title_list">
+ <div class="title_list_box">
+ <div class="tl_caption"></div>
+ <ul class="ul_title_list" id="contentELMT1446184385318888">
+		
+			
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480291020788557.shtml" target="_blank" >华北黄淮将遭遇“霾伏”</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/27/ARTI1480253702742688.shtml" target="_blank" >食药监局通告29批次药品不合格</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/27/ARTI1480226255227575.shtml" target="_blank" >东航：一旅客在摆渡车上摔倒受伤</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480295237533264.shtml" target="_blank" >以色列火灾情势好转</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480296841841571.shtml" target="_blank" >美驻菲大使馆附近现疑似爆炸物</a>
+						
+						</li>
+							
+							
+						
+						
+					
+		
+ </ul>
+ <!--更多项开始-->
+ <div class="tl_option"></div>
+ <!--更多项结束-->
+ </div>
+	
+<script language="javascript">			
+		var itemStepELMT1446184385318888 ="1";
+		var splitItemELMT1446184385318888 ="";
+		var contentIdELMT1446184385318888 = "contentELMT1446184385318888";
+		
+		showTitle("ELMT1446184385318888",1);
+</script>
+ <div style="clear:both;"></div>
+ 
+	 
+ <div class="vspace"></div>
+ 	
+
+</div>
+<script>
+var liobj = $(".ELMT1446184385318888 .title_list .title_list_box .ul_title_list li");
+$(liobj[liobj.length-1]).css("border-bottom","0");
+</script>
+</div>
+
+
+
+		</div>
+ 	
+	</div>
+</div>
+<div class="hide_2015102702"></div>
+</div><link type="text/css" rel="stylesheet" href="http://www.cneb.gov.cn/cneb/include_all_2014/2015tfxw_ind/style/style.css?f39055cf07edf62a55cfc11dfd7730b8"/><script language="javascript" src="http://www.cneb.gov.cn/cneb/include_all_2014/2015tfxw_ind/style/main.js?34f1239a6058e8959ceae92c4fb4240a"></script>
+<div class="ELMT1446183881671811">
+<div class="md2015102702"  id="">
+	
+	<div class="md_hd">
+		<span class="md_htd">突发新闻排行</span>                
+		
+		
+	</div>
+
+	<div class="md_bd">
+	
+		<div id="SUBD1446183881673813">
+			<div class="ELMT1446183905590824">
+<div class="title_list">
+ <div class="title_list_box">
+ <div class="tl_caption"></div>
+ <ul class="ul_title_list" id="contentELMT1446183905590824">
+		
+			
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/27/ARTI1480221578183333.shtml" target="_blank" >新疆阿克陶县开展抗震救灾</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480291020788557.shtml" target="_blank" >华北黄淮将遭遇“霾伏”</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/27/ARTI1480253378579655.shtml" target="_blank" >台风“蝎虎”来袭</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480296993534593.shtml" target="_blank" >湖北潜江摩天轮“罢工”</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/27/ARTI1480252396685608.shtml" target="_blank" >香港结束援建汶川地震灾区</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480295237533264.shtml" target="_blank" >以色列火灾情势好转</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480295753224335.shtml" target="_blank" >美国新奥尔良发生枪击案</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480296643795526.shtml" target="_blank" >奥地利一住宅发生大火</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480296841841571.shtml" target="_blank" >美驻菲大使馆附近现疑似爆炸物</a>
+						
+						</li>
+							
+							
+						
+						
+					
+						
+						
+							
+								<li style="display:none;" class="zdy"><a href="http://www.cneb.gov.cn/2016/11/28/ARTI1480291733513625.shtml" target="_blank" >尼泊尔发生5.1级地震</a>
+						
+						</li>
+							
+							
+						
+						
+					
+		
+ </ul>
+ <!--更多项开始-->
+ <div class="tl_option"></div>
+ <!--更多项结束-->
+ </div>
+	
+<script language="javascript">			
+		var itemStepELMT1446183905590824 ="1";
+		var splitItemELMT1446183905590824 ="";
+		var contentIdELMT1446183905590824 = "contentELMT1446183905590824";
+		
+		showTitle("ELMT1446183905590824",1);
+</script>
+ <div style="clear:both;"></div>
+ 
+	 
+ <div class="vspace"></div>
+ 	
+
+</div>
+<script>
+var liobj = $(".ELMT1446183905590824 .title_list .title_list_box .ul_title_list li");
+$(liobj[liobj.length-1]).css("border-bottom","0");
+</script>
+</div>
+
+
+
+		</div>
+ 	
+	</div>
+</div>
+<div class="hide_2015102702"></div>
+</div><link type="text/css" rel="stylesheet" href="http://www.cneb.gov.cn/cneb/include_all_2014/2015yjcx_ind/style/style.css?c367c49e7dbc163aa89967939c7170e5"/><script language="javascript" src="http://www.cneb.gov.cn/cneb/include_all_2014/2015yjcx_ind/style/main.js?ed02de7f8676f3d6794bf952a0049b4c"></script>
+<div class="ELMT1446183492753752">
+<div class="md2015102702"  id="">
+	
+	<div class="md_hd">
+		<span class="md_htd">预警查询</span>                
+		
+		
+	</div>
+
+	<div class="md_bd">
+	
+		<div id="SUBD1446183492754754">
+			<div class="md_2014083111">
+<table width="260" border="0" cellspacing="0" cellpadding="0" class="tb">
+	<tr >
+		<td style="border-bottom:1px solid #cfcfcf;"><span class="txt"><input type="text" id="t_keyword_Box" value="关键字" default="关键字" onfocus='if ($(this).val() == $(this).attr("default")) {$(this).val("");}' onblur='if (!$.trim($(this).val())) {$(this).val($(this).attr("default"));}'/> <a href="#"><img src="http://img.cneb.gov.cn/photoAlbum/templet/common/DEPA1409134170635612/yj21.gif" /></a></span></td>
+	</tr>
+	<tr >
+		<td>按日期</td>
+	</tr>
+	<tr >
+		<td style="border-bottom:1px solid #cfcfcf;">
+			<p><input id="data_li_01" type="text" default="起始日期" class="datainput Wdate" onClick="WdatePicker({maxDate:(($('#data_li_02').val()==$('#data_li_02').attr('default'))?'%y-%M-%d':'#F{$dp.$D(\'data_li_02\')||\'%y-%M-%d\'}')})" /></p>
+			<div class="vspace"></div>
+            <p><input id="data_li_02" type="text" default="结束日期" class="datainput Wdate" onClick="WdatePicker({minDate:($('#data_li_01').val()==$('#data_li_01').attr('default'))?'1970-01-01':'#F{$dp.$D(\'data_li_01\')}',maxDate:'%y-%M-%d'})" /></p>
+		</td>
+	</tr>
+	<tr >
+		<td>按地点</td>
+	</tr>
+	<tr >
+		<td>
+			<select class="slt" name="ProvinceBox" id="ProvinceBox">
+			  <option value="">省份</option>
+			</select>
+		</td>
+	</tr>
+	<tr >
+		<td style="border-bottom:1px solid #cfcfcf;">
+			<select class="slt" name="CityBox" id="CityBox">
+			  <option value="">城市</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>按灾害级别</td>
+	</tr>
+	<tr >
+		<td style="border-bottom:1px solid #cfcfcf;" id="e_lever_Box">
+			<input name="e_lever_1" type="checkbox" value="1" /> 1级  
+			<input name="e_lever_2" type="checkbox" value="2" /> 2级  
+			<input name="e_lever_3" type="checkbox" value="3" /> 3级  
+			<input name="e_lever_4" type="checkbox" value="4" /> 4级
+		</td>
+	</tr>
+	<tr>
+		<td><a href="javascript:void(0);" target="_blank" id="t_searche_btn" class="search">搜索</a></td>
+	</tr>
+</table>
+</div>
+<script type="text/javascript" src="http://www.cneb.gov.cn/contentpage2013/js/my97data/WdatePicker.js"></script>
+<script type="text/javascript">
+$(function(){
+	$.getScript("http://www.cneb.gov.cn/contentpage2013/js/addressDPage.js", function(){
+		var p_ = $('#ProvinceBox'), c_ = $('#CityBox');
+		p_.change(function(){
+			showCity(c_,p_.val(),$('option:selected',p_).text());
+		});
+		showProvince(p_);
+	});
+});
+</script>
+
+		</div>
+ 	
+	</div>
+</div>
+<div class="hide_2015102702"></div>
+</div>
+<script type="text/javascript">
+$(function(){
+	$('#t_searche_btn').click(function(){
+		var keyword_L01 = ($('#t_keyword_Box').val()==$('#t_keyword_Box').attr('default'))?'':$('#t_keyword_Box').val(); 
+		var mp_L01=$('#ProvinceBox').val();
+		var mc_L01=$('#CityBox').val();
+		var startTime_L01=($('#data_li_01').val()==$('#data_li_01').attr('default'))?'':$('#data_li_01').val();
+		var endTime_L01 =($('#data_li_02').val()==$('#data_li_02').attr('default'))?'':$('#data_li_02').val();
+		var level_L01_arr =[];
+		$('#e_lever_Box input:checked').each(function(){
+			level_L01_arr.push($(this).val());
+		});
+		var level_L01=level_L01_arr.join(':');
+		$('#t_searche_btn').attr('href','http://www.cneb.gov.cn/yjxx/?keyword='+encodeURI(keyword_L01)+'&mp='+mp_L01+'&mc='+mc_L01+'&startTime='+startTime_L01+'&endTime='+endTime_L01+'&level='+level_L01);
+	});
+});
+</script>
+</div>
+    <div class="clear"></div>
+</div>
+</div>
+<link type="text/css" rel="stylesheet" href="http://www.cneb.gov.cn/cneb/include_all_2014/footer/style/style.css?4173db31a49f6a0079a89c81b80a3076"/><script language="javascript" src="http://www.cneb.gov.cn/cneb/include_all_2014/footer/style/main.js?80aec8b08447712ddc03b5493346bd3f"></script>
+<div id="bottom">    
+    <div class="bottom960">
+        <div class="blank18"></div>
+        <p class="bottom_p1">
+
+		<a href="http://www.un.org/" target="_blank">联合国总部</a>
+ | 
+		<a href="http://reliefweb.int/" target="_blank">联合国救济信息网</a>
+ | 
+		<a href="http://www.unocha.org/" target="_blank">联合国人道主义协调办公室</a>
+ | 
+		<a href="http://www.unisdr.org/" target="_blank">联合国国际减灾策略</a>
+ | 
+		<a href="http://www.who.int/hac/en/" target="_blank">世界卫生组织应急与人道行动</a>
+
+            
+        </p>
+        <div class="blank20"></div>
+        <p class="bottom_p2">
+
+<a href="http://www.ifrc.org/" target="_blank">红十字会红新月联盟</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.who.int/en/" target="_blank">世界卫生组织</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.icrc.org/eng/" target="_blank">国际红十字会</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.icdo.org/icdo/Home.aspx?Lng=2" target="_blank">国际民防组织</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.bosai.go.jp/index.html" target="_blank">日本防灾科技研究所</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.adrc.asia/" target="_blank">亚洲防灾中心</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://www.disaster-resource.com/" target="_blank">灾害信息指南网</a>
+
+        </p>
+        <div class="blank20"></div>
+        <p class="bottom_p1">
+
+		新闻热线：4008000088 E-mail:4008000088@cnr.cn 网上传播视听节目许可证号 0102002
+<br><br>京ICP备05065762号-21 京公网安备11040202120010 
+<br><br>中央人民广播电台 版权所有(C)
+<br><br>授权联系电话：010-86095348
+
+        </p>
+        <div class="blank20"></div>
+    </div> 
+</div>
+<div style="display:none">
+<script type="text/javascript">document.write(unescape("%3Cscript src='http://cl2.webterren.com/webdig.js?z=27' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")</script>
+</div>
+<div style="display:none">
+<div id="loginFrame" class="popbox2013_20140902">
+	<div class="popbg1"></div>
+	<div class="loginbox">
+		<div class="leftbox">
+			<ul>
+				<li><span class="w1">用　户</span><input id="login_name_val" type="text" class="input1" value="" /></li>
+				<li><span class="w1">密　码</span><input id="login_pwd_val" type="password" class="input1" value="" /></li>
+				<li><p class="remember"><label><input id="is_autologin_val" type="checkbox" value="" /> 记住我的用户名</label></p></li>
+				<li class="submitbox">
+					<button type="button" class="loginbutton" onclick="login_f();">登录</button>
+					<!-- <span class="forgot"><a href="#">忘记密码</a></span> -->
+				</li>
+			</ul>
+		</div>
+		<div class="rightbox">
+			<img src="http://img.cneb.gov.cn/photoAlbum/templet/common/DEPA1378373547816120/loginbg2.gif" width="173" height="39" alt="国家应急广播" /> 
+			<p>还没有国家应急广播账号？</p>
+			<p><a href="http://uc.cneb.gov.cn:8080/regist/registnew.jsp" target="_blank">立即注册</a></p>
+		</div>
+		<div class="c"></div>
+	</div>
+</div>
+</div>
+<!-- cms_html_code_start -->
+<link href="http://www.cneb.gov.cn/contentpage2013/arti_css/colorboxstyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://www.cneb.gov.cn/contentpage2013/js/jquery.colorbox.js"></script>
+<!-- cms_html_code_end -->
+<script type="text/javascript" src="http://www.cneb.gov.cn/contentpage2013/js/share_btn.js"></script>
+</body>
+</html>

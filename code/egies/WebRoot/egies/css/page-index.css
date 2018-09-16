@@ -1,0 +1,217 @@
+/*
+ * Edit the style sheet of the homepage here
+ */
+
+/*
+ * Set body
+ */
+body{
+	/*Set the background image of the body, repeating horizontally*/
+	background: url(../img/bd-bg2.png) repeat-x;
+}
+
+/*
+ * Solve the problem of high collapse clearfix
+ */
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+/*
+ * Fixed element width and centering
+ */
+.w{
+	width: 940px;
+	margin: 0 auto;
+}
+
+/*Set header*/
+.header{
+	/*background-color: #bfa;*/
+	/*Set an upper padding*/
+	/* padding-top: 70px; */
+	/*Set a bottom padding*/
+	/* padding-bottom: 46px; */
+	padding: 16px 0px 20px 0px;
+}
+
+/*Set the location of the logo*/
+.logo{
+	/* margin-left: 15px; */
+	margin: 28px 0px 0px 0px;
+}
+
+/*
+ * Set navigation bar
+ */
+.nav{
+	/*Set to float to the right*/
+	float: right;
+	/*Set an upper margin*/
+	margin-top: 22px;
+}
+
+.nav li{
+	/*Set to float to the left*/
+	float: left;
+	/*Set left and right padding*/
+	padding: 0 10px 8px;
+	/*Set the left border*/
+	/* border-left: 1px #d6d6d6 dotted; */
+}
+
+/*Set the hyperlink in the navigation bar*/
+.nav a{
+	/*Set font color*/
+	color: #666;
+	/*Set font*/
+	font: bold 50px Georgia;
+	/*Remove underline*/
+	text-decoration: none;
+	
+}
+
+/*Set the move in effect of the hyperlink*/
+.nav a:hover{
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+
+/*
+ * Set the subtitle in the navigation
+ * Minimum font support to 12px in chrome browser
+ * 	1-11 are shown as 12px
+ */
+.nav p{
+	/*font color*/
+	color: #b7b7b7;
+	/*font size*/
+	font: 26px tahoma;
+}
+
+
+/*Set the hover of the hyperlink*/
+.pointerDiv .active,
+.pointerDiv a:hover{
+	background:url(../img/sprite.png) no-repeat -27px 0px;
+}
+
+/*Map display*/
+#mapDiv{
+	/* position:absolute; */
+	position:relative;
+	width:100%;
+	height:100%;
+    margin: 0 auto;
+}
+
+/* Set the day map search box */
+
+.searchFrame{
+/* 	 position:relative;
+	 width:500px;
+	 left:0px;
+	 top:0px;
+				 background-color: red;
+		 
+	background-color: yellowgreen;
+	z-index: 30;
+	opacity: 0.5;
+	filter: alpha(opacity=50); */
+	 
+}
+.search {
+	font-size: 13px;
+	border: 1px solid #999999;
+}
+
+.ls {
+	line-height: 27px;
+	padding-left: 7px;
+}
+
+.prompt {
+	display: none;
+	font-size: 13px;
+	border: 1px solid #999999;
+}
+
+.statistics {
+	display: none;
+	font-size: 13px;
+	border: 1px solid #999999;
+	overflow-y: scroll;
+	height: 150px;
+}
+
+.suggests {
+	/* display: none; */
+	font-size: 13px;
+	border: 1px solid #999999;
+}
+
+;
+.lineData {
+	display: none;
+	font-size: 13px;
+	border: 1px solid #999999;
+}
+
+.result {
+	display: none;
+	font-size: 12px;
+	border: 1px solid #999999;
+	line-height: 27px;
+	padding-left: 7px;
+}
+/* End */
+
+/*Set the bottom*/
+.footer{
+	height: 173px;
+	background: #333;
+	/*Set the top border*/
+	border-top: 10px solid #4c4c4c;
+}
+
+/*
+ * Set the style of the text at the bottom
+ */
+.footer a , .footer p{
+	color: #999;
+	font: 11px Helvetica ;
+	text-decoration: none;
+}
+
+/*
+ * Set the hover of the a element
+ */
+.footer a:hover{
+	color: #cccaca;
+	text-decoration: underline;
+}
+
+.footer p{
+	margin-left: 8px;
+	margin-right: 23px;
+	margin-bottom: 6px;
+}
+
+.footer .w{
+	padding-top:18px ;
+}
+
+.footer .copy{
+	float: right;
+	/*Handling double margin bugs*/
+	display: inline;
+}
+
+

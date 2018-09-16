@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tomcat/tomcat-8.5.16/work/Catalina/localhost/localhost.iml" filepath="$PROJECT_DIR$/tomcat/tomcat-8.5.16/work/Catalina/localhost/localhost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/egies/6.index/work/Catalina/localhost/localhost1.iml" filepath="$PROJECT_DIR$/egies/6.index/work/Catalina/localhost/localhost1.iml" />
+    </modules>
+  </component>
+</project>

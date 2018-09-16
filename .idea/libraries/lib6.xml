@@ -1,0 +1,45 @@
+<component name="libraryTable">
+  <library name="lib6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/jackson-core-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/httpmime-4.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/mysql-connector-java-5.1.7-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/ezmorph-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/commons-dbutils-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/noggit-0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/lucene-queryparser-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/htmlparser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/hanlp-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/jcl-over-slf4j-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/slf4j-log4j12-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/solr-solrj-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/lucene-highlighter-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/async-http-client-1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/jackson-annotations-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/commons-io-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/httpcore-4.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/solr-core-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/slf4j-api-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/httpclient-4.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/htmllexer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/lucene-core-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/egisikanalyzer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/zookeeper-3.4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/jackson-databind-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/jul-to-slf4j-1.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/hanlp-1.3.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/cpdetector_1.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/chardet-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/commons-lang-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/lucene-analyzers-common-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/code/tools/lib/wstx-asl-3.2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
