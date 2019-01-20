@@ -1,4 +1,4 @@
-# Information Extractio
+# Information Extraction
 
 Code is where the code is stored.
 Tools are the reference materials and files needed by the code base.
