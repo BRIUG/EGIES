@@ -1,4 +1,4 @@
-# IE
+# Information Extraction
 Information Extraction
 
 Code is where the code is stored.
